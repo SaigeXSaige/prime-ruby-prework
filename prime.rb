@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+<<<<<<< HEAD
   if number <= 1
       return false
   else 
@@ -13,4 +14,15 @@ def prime?(number)
     end
   end
 return true
+=======
+  divisible = Array (2..number)
+  
+  divisible.each do |x| 
+    if number % divisible == 0
+      return false
+    else
+      return true
+    end
+  end
+>>>>>>> e304b054602dace106c250cdb32612f140606fdf
 end
